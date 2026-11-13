@@ -9,6 +9,8 @@ description = "Find the exact row and column of every error in a CSV or JSON fil
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "MIT" }
+authors = [{ name = "Corefix Group" }]
+maintainers = [{ name = "Corefix Group" }]
 keywords = ["data quality", "csv", "json", "validation", "data cleaning"]
 classifiers = [
     "Programming Language :: Python :: 3",
@@ -16,6 +18,11 @@ classifiers = [
     "Operating System :: OS Independent",
     "Topic :: Software Development :: Quality Assurance",
 ]
+
+[project.urls]
+Homepage = "https://github.com/CoreFixGroup/DataCheckup"
+Repository = "https://github.com/CoreFixGroup/DataCheckup"
+Issues = "https://github.com/CoreFixGroup/DataCheckup/issues"
 
 [tool.setuptools]
 packages = ["datacheckup"]
