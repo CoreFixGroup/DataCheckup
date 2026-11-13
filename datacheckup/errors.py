@@ -1,0 +1,2 @@
+class DataCheckupError(ValueError):
+    pass

@@ -1,0 +1,9 @@
+File Row,Roll No,Student Name,Email,Mobile,Date of Birth,Marks,Remarks,Problems
+13,21CS012,Lokesh,lokesh@college.edu,12345,2003-04-05,83,,Mobile: Invalid phone format
+14,21CS013,,manoj@college.edu,9876500013,22-11-2004,75,,Student Name: Missing value
+15,21CS014,Navya,navya.college.edu,9876500014,2004-03-03,90,,Email: Invalid email format
+16,21CS015,Om,om@college.edu,9876500015,31/02/2004,68,,Date of Birth: Invalid date format
+17,21CS016,Pooja,pooja@college.edu,9876500016,2004-07-07,abc,,"Marks: Invalid data type, expected a number"
+18,21CS017,Rahul,,9876500017,05/05/2004,72.5,,Email: Missing value
+21,21CS003,Uma,uma@college.edu,9876500020,2004-08-08,79,,Roll No: Duplicate value (first seen in row 4)
+24,21CS008,Harsha,harsha@college.edu,9876500008,2004-09-09,94,,Roll No: Duplicate value (first seen in row 9); (entire row): Duplicate row (same as row 9)

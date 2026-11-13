@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "datacheckup"
+version = "0.1.0"
+description = "Find the exact row and column of every error in a CSV or JSON file, with no setup and no database."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+keywords = ["data quality", "csv", "json", "validation", "data cleaning"]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[tool.setuptools]
+packages = ["datacheckup"]
